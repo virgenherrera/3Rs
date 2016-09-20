@@ -1,0 +1,97 @@
+/* Created by Artisteer v4.0.0.58475 */
+
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.Tw3rs-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.Tw3rs-hmenu>li, .Tw3rs-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.Tw3rs-hmenu, ul.Tw3rs-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+ul.Tw3rs-hmenu>li:first-child {
+   padding-right:0;
+}
+
+ul.Tw3rs-hmenu ul{
+   background-color: #179BD3 !important;
+}
+
+.Tw3rs-header
+{
+   z-index: 1;
+}
+
+.Tw3rs-content-layout, .Tw3rs-content-layout-row, .Tw3rs-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.Tw3rs-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.Tw3rs-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.Tw3rs-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.Tw3rs-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.Tw3rs-postheadericons span{
+   zoom: 1;
+}
+.Tw3rs-postcontent {
+   height: 1%;
+}
+
+.Tw3rs-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.Tw3rs-content 
+{
+   width: auto;
+   float:none;
+}
+

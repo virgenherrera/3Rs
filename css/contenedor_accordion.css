@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* Estilos CSS contenedores de accordiones */
+
+#contenedor_accordion
+{
+	text-align:center;
+	width: 90%;
+	-webkit-box-shadow:  5px 5px 5px 5px #FBAA6F;
+	box-shadow:  5px 5px 5px 5px #FBAA6F;
+	-webkit-border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
+	background-color: #C60;
+
+}
